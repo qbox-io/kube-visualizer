@@ -1,0 +1,27 @@
+<!doctype html>
+
+<html lang="en" style="height: 100%">
+<head>
+  <meta charset="utf-8">
+
+  <title>Supergiant Kube Visualizer</title>
+  <meta name="description" content="Supergiant Kube Visualizer">
+  <meta name="author" content="Qbox">
+
+  <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+</head>
+
+<body style="height: 100%; font-family: Courier; margin: 0">
+  <div id="container" style="width: 100%; height: 100%">
+    <div style="width: 60%; height: 100%; float: left; overflow: scroll">
+      <div id="loader" style="float: right">Refreshing...</div>
+      <h1 style="background: url('/static/supergiant.png'); width: 300px; height: 86px; display: block" alt="Supergiant"></h1>
+
+      <svg width="100%" height="5000px"></svg>
+    </div>
+    <div id="events" style="float: right; padding-left: 8px; width: 39%; height: 100%; background: #222; color: #ccc; font-size: 12px; line-height: 1.4em; overflow: scroll"></div>
+  </div>
+  <script src="/static/packer.js" charset="utf-8"></script>
+  <script src="/static/app.js" charset="utf-8"></script>
+</body>
+</html>
