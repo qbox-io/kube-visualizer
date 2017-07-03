@@ -290,7 +290,7 @@ function render(json) {
         .style("font-size", "0.5em")
         .style("opacity", "1")
         .text(function(d) {
-          return 'inac: ' + d.labels['inactive'] + ', evac: ' + d.labels['evacuate'];
+          return 'inac: ' + d.labels['inactive'] + ', evac: ' + d.labels['evacuating'];
         });
 
   // Minion rectangle
